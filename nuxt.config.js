@@ -1,6 +1,14 @@
 
 export default {
   mode: 'universal',
+
+  generate: {
+    routes: [
+      'posts/balut',
+      'posts/how',
+      'posts/whereIsIt'
+    ]
+  },
   /*
   ** Headers of the page
   */
